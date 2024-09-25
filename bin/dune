@@ -1,0 +1,4 @@
+(executable
+ (public_name passeport)
+ (name main)
+ (libraries passeport))
