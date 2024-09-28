@@ -15,10 +15,11 @@
 
 (package
  (name passeport)
- (synopsis "A library for Dream authentication.")
+ (synopsis "A library for Dream authentication")
  (description "An authentication middleware for Dream web framework, with pluggable authentication strategies.")
  (depends
    ocaml
    dune
+   dream
    (ocaml-lsp-server :with-dev-setup)
    (ocamlformat :with-dev-setup)))

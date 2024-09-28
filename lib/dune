@@ -1,2 +1,5 @@
+(include_subdirs qualified)
+
 (library
- (name passeport))
+ (name passeport)
+ (libraries dream lwt))
