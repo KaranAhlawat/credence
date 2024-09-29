@@ -1,4 +1,4 @@
 (executable
- (public_name passeport)
+ (public_name credence)
  (name main)
- (libraries passeport))
+ (libraries credence))

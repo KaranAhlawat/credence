@@ -1,2 +1,1 @@
-module LocalStrategy = Passeport.Strategy.Local.Make (Config)
-module MW = Passeport.Middleware.Authenticate.Make (LocalStrategy)
+module Local = Credence.Middleware.Authenticate.Make (Config)

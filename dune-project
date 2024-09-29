@@ -1,6 +1,6 @@
 (lang dune 3.16)
 
-(name passeport)
+(name credence)
 
 (generate_opam_files true)
 
@@ -14,7 +14,7 @@
 (license MIT)
 
 (package
- (name passeport)
+ (name credence)
  (synopsis "A library for Dream authentication")
  (description "An authentication middleware for Dream web framework, with pluggable authentication strategies.")
  (depends
